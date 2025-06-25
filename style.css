@@ -1,7 +1,7 @@
 body {
-  font-family: 'Tahoma', sans-serif;
   margin: 0;
   padding: 0;
+  font-family: 'Cairo', 'Tahoma', sans-serif;
   background-color: #f9f9f9;
   direction: rtl;
   color: #000000f6;
@@ -17,25 +17,23 @@ header.hero {
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   background: linear-gradient(to left, #004080, #990000);
-  color: #ffffff;
-  padding: 20px 0;
-  text-align: center;
 }
 
-
 nav ul li {
-  margin: 5px 10px; 
+  margin: 5px 10px;
 }
 
 nav ul li a {
   color: #ffd000;
   text-decoration: none;
-  padding: 7;
+  padding: 14px 20px;
   display: block;
+  transition: background 0.3s;
 }
 
 nav ul li a:hover {
@@ -67,9 +65,23 @@ nav ul li a:hover {
 }
 
 section {
-  padding: 20px 10px;
+  padding: 40px 20px;
   max-width: 1000px;
   margin: auto;
+  background-color: #fff;
+  text-align: right;
+}
+
+section h2 {
+  color: #00aeff;
+  margin-bottom: 20px;
+}
+
+section p,
+section ul {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 .features {
@@ -121,77 +133,6 @@ form button {
 
 form button:hover {
   background-color: #002b5c;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 40px;
-}
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Cairo', sans-serif;
-  background-color: #f7f7f7;
-  direction: rtl;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background-color: #333;
-  overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-nav ul li {
-  margin: 0;
-}
-
-nav ul li a {
-  display: block;
-  padding: 14px 20px;
-  text-decoration: none;
-  color: white;
-  transition: background 0.3s;
-}
-
-nav ul li a:hover {
-  background-color: #555;
-}
-
-.hero {
-  background: linear-gradient(to right, #004466, #0077aa);
-  color: white;
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 40px;
-}
-
-section {
-  padding: 40px 20px;
-  background-color: rgb(255, 255, 255);
-  text-align: right;
-}
-
-section h2 {
-  color: #00aeff;
-  margin-bottom: 20px;
-}
-
-section p,
-section ul {
-  color: #333;
-  font-size: 18px;
-  line-height: 1.7;
 }
 
 footer {
