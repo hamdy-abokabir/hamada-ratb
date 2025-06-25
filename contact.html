@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>تواصل معنا | العمارنة جروب</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 500px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    form input, form textarea {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      resize: vertical;
+    }
+
+    form button {
+      padding: 10px;
+      font-size: 18px;
+      background-color: #004080;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    form button:hover {
+      background-color: #002a5c;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+      .hero-content h1 {
+        font-size: 24px;
+      }
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      padding: 0;
+      list-style: none;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px 10px;
+      display: inline-block;
+    }
+
+    .contact-info {
+      max-width: 600px;
+      margin: auto;
+      text-align: right;
+    }
+
+    .contact-info li {
+      margin-bottom: 10px;
+      list-style: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="services.html">الخدمات</a></li>
+        <li><a href="projects.html">معرض الأعمال</a></li>
+        <li><a href="location.html">موقعنا</a></li>
+        <li><a href="about.html">عن الشركة</a></li>
+        <li><a href="aboutus-gallery.html">نبذة عنّا بالصور</a></li>
+        <li><a href="contact.html">تواصل معنا</a></li>
+        <li><a href="support.html">الدعم الفني</a></li>
+        <li><a href="request.html">طلب مشروع</a></li>
+        <li><a href="privacy.html">سياسة الخصوصية</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>تواصل معنا</h1>
+    </div>
+  </header>
+
+  <section>
+    <h2>أرسل لنا رسالة</h2>
+    <form>
+      <input type="text" placeholder="الاسم الكامل" required>
+      <input type="email" placeholder="البريد الإلكتروني" required>
+      <textarea placeholder="رسالتك" rows="5" required></textarea>
+      <button type="submit">إرسال</button>
+    </form>
+
+    <div class="contact-info">
+      <h3>أو تواصل معنا مباشرة:</h3>
+      <ul>
+        <li><strong>📞 الهاتف:</strong> <a href="tel:+201124557123">+20 112 455 7123</a></li>
+        <li><strong>💬 واتساب:</strong> <a href="https://wa.me/201124557123" target="_blank">مراسلة الدعم</a></li>
+        <li><strong>📧 البريد:</strong> alamarnagroup@gmail.com</li>
+      </ul>
+      <ul>
+        <li><strong>📞 الهاتف:</strong> <a href="tel:+201029448695">+20 102 944 8695</a></li>
+        <li><strong>💬 واتساب:</strong> <a href="https://wa.me/201029448695" target="_blank">مراسلة الدعم</a></li>
+        <li><strong>📧 البريد:</strong> alamarnagroup@gmail.com</li>
+      </ul>
+      <ul>
+        <li><strong>📞 الهاتف:</strong> <a href="tel:+201145618429">+20 114 561 8429</a></li>
+        <li><strong>💬 واتساب:</strong> <a href="https://wa.me/201145618429" target="_blank">مراسلة الدعم</a></li>
+        <li><strong>📧 البريد:</strong> alamarnagroup@gmail.com</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="flex items-center justify-center gap-4 mt-8">
+    <a href="https://www.facebook.com/share/16duNgkQhE/ " target="_blank" class="text-blue-600 hover:text-blue-800 transition">
+      <i class="fa-brands fa-facebook fa-xl"></i>
+    </a>
+    <a href="https://wa.me/201124557123" target="_blank" class="text-green-500 hover:text-green-600 transition">
+      <i class="fa-brands fa-whatsapp fa-xl"></i>
+    </a>
+    <a href="https://www.tiktok.com/@alamarna.groub?_t=ZS-8xSEzweIDOU&_r=1" target="_blank" class="text-green-500 hover:text-green-600 transition">
+      <i class="fa-brands fa-tiktok fa-xl"></i>
+    </a>
+    <a href="https://www.instagram.com/alamarnagroub?igsh=MXVvaWg4YThoOHlvag==" target="_blank" class="text-pink-500 hover:text-pink-600 transition">
+      <i class="fa-brands fa-instagram fa-xl"></i>
+    </a>
+    <a href="mailto:alamarnagroup@email.com" class="text-red-500 hover:text-red-600 transition">
+      <i class="fa-solid fa-envelope fa-xl"></i>
+    </a>
+  </div>
+
+  <footer>
+    <p>جميع الحقوق محفوظة &copy; 2025 | العمارنة جروب</p>
+    <p>تم التطوير بواسطة &copy; 2025 | HUNTER</p>
+  </footer>
+</body>
+</html>

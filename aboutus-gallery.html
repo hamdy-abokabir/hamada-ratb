@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نبذة عنّا | العمارنة جروب</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: linear-gradient(to left, #004080, #990000);
+      color: #f8f8f8;
+      padding: 20px 0;
+      text-align: center;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 16px;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    nav ul li a:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .gallery-container {
+      padding: 35px 5%;
+      text-align: center;
+    }
+
+    .gallery-container h1 {
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+
+    .slider {
+      overflow: hidden;
+      position: relative;
+      margin: auto;
+      max-width: 100%;
+    }
+
+    .slide-track {
+      display: flex;
+      animation: scroll 30s linear infinite;
+      width: max-content;
+    }
+
+    .slide {
+      flex: 0 0 auto;
+      margin: 10px;
+      border-radius: 15px;
+    }
+
+    .slide img {
+      width: 200px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgb(0, 170, 255);
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
+    }
+
+    .slide img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 30px rgba(255, 0, 90, 0.9);
+    }
+
+    @keyframes scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(50%); }
+    }
+
+    .social-icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 40px;
+    }
+
+    .social-icons a {
+      font-size: 1.5rem;
+      transition: transform 0.3s;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2);
+    }
+
+    footer {
+      background-color: #000;
+      padding: 20px;
+      margin-top: 60px;
+      color: #aaa;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .slide img {
+        width: 150px;
+        height: 220px;
+      }
+
+      .gallery-container h1 {
+        font-size: 1.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .slide img {
+        width: 120px;
+        height: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">الرئيسية</a></li>
+      <li><a href="services.html">الخدمات</a></li>
+      <li><a href="projects.html">معرض الأعمال</a></li>
+      <li><a href="location.html">موقعنا</a></li>
+      <li><a href="about.html">عن الشركة</a></li>
+      <li><a href="aboutus-gallery.html">نبذة عنّا بالصور</a></li>
+      <li><a href="contact.html">تواصل معنا</a></li>
+      <li><a href="support.html">الدعم الفني</a></li>
+      <li><a href="request.html">طلب مشروع</a></li>
+      <li><a href="privacy.html">سياسة الخصوصية</a></li>
+    </ul>
+  </nav>
+
+  <div class="gallery-container">
+    <h1>نبذة عنّا بالصور</h1>
+    <div class="slider">
+      <div class="slide-track">
+        <!-- كرر الصور -->
+        <div class="slide"><img src="FB_IMG_حمادة راتب.jpg" alt=" "></div>
+         <div class="slide"><img src="FB_IMG_1حمادة راتب.jpg" alt=" "></div>
+         <div class="slide"><img src="IMG-20250529-WA0033.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250529-WA0034.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250529-WA0041.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250529-WA0043.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250529-WA0051.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250529-WA0048.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250529-WA0055.jpg" alt=" "></div>
+         <div class="slide"><img src="FB_IMG_حمادة راتب.jpg" alt=" "></div>
+         <div class="slide"><img src="FB_IMG_1حمادة راتب.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250529-WA0058.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250529-WA0063(1).jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250529-WA0076.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250529-WA0077.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250529-WA0080.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250531-WA0010.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250531-WA0011.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250531-WA0013.jpg" alt=" "></div>
+         <div class="slide"><img src="FB_IMG_حمادة راتب.jpg" alt=" "></div>
+         <div class="slide"><img src="FB_IMG_1حمادة راتب.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250602-WA0133.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250602-WA0144.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250602-WA0147.jpg" alt=" "></div>
+        <div class="slide"><img src="IMG-20250602-WA0149.jpg" alt=" "></div>
+         <div class="slide"><img src="FB_IMG_حمادة راتب.jpg" alt=" "></div>
+         <div class="slide"><img src="FB_IMG_1حمادة راتب.jpg" alt=" "></div>
+        <!-- باقي الصور هنا -->
+      </div>
+    </div>
+  </div>
+
+  <div class="social-icons">
+    <a href="https://www.facebook.com/share/16duNgkQhE/" target="_blank" class="text-blue-600"><i class="fa-brands fa-facebook fa-xl"></i></a>
+    <a href="https://wa.me/201124557123" target="_blank" class="text-green-500"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+    <a href="https://www.tiktok.com/@alamarna.groub?_t=ZS-8xSEzweIDOU&_r=1" target="_blank" class="text-green-500"><i class="fa-brands fa-tiktok fa-xl"></i></a>
+    <a href="https://www.instagram.com/alamarnagroub" target="_blank" class="text-pink-500"><i class="fa-brands fa-instagram fa-xl"></i></a>
+    <a href="mailto:alamarnagroup@email.com" class="text-red-500"><i class="fa-solid fa-envelope fa-xl"></i></a>
+  </div>
+
+  <footer>
+    <p>العمارنة جروب &copy; 2025 | معرض الصور</p>
+    <p>تم التطوير بواسطة &copy; 2025 | HUNTER</p>
+  </footer>
+</body>
+</html>
