@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://hamdy-abokabir.github.io/alamarnagroup/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://hamdy-abokabir.github.io/alamarnagroup/services.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://hamdy-abokabir.github.io/alamarnagroup/projects.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://hamdy-abokabir.github.io/alamarnagroup/location.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://hamdy-abokabir.github.io/alamarnagroup/about.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://hamdy-abokabir.github.io/alamarnagroup/aboutus-gallery.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://hamdy-abokabir.github.io/alamarnagroup/contact.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://hamdy-abokabir.github.io/alamarnagroup/support.html</loc>
+    <priority>0.60</priority>
+  </url>
+
+  <url>
+    <loc>https://hamdy-abokabir.github.io/alamarnagroup/request.html</loc>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://hamdy-abokabir.github.io/alamarnagroup/privacy.html</loc>
+    <priority>0.50</priority>
+  </url>
+
+</urlset>
